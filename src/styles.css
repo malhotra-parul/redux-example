@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter > div > button{
+  padding: 5px;
+  font-size: 16px;
+}
+
+.counter > div > span{
+  padding: 0 20px;
+}
+
+.counter {
+  border: 1px solid black;
+  padding: 20px;
+  height: 100px;
+  width: 200px;
+  display: grid;
+  place-items: center;
+}
